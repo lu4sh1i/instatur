@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b6127e91-2c25-450e-a25e-def3e11f0bdc" name="instatur/deploy" url="http://ftp71.claus.ro">
+        <fileTransfer host="ftp71.claus.ro" port="21" password="dfc7dfe7dfc0dfc2dfc4df98dff8df9e" username="instatur">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
