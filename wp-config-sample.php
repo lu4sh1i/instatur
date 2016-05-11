@@ -1,89 +1,89 @@
 <?php
 /**
- * The base configuration for WordPress
+ * Setările de bază pentru WordPress.
  *
- * The wp-config.php creation script uses this file during the
- * installation. You don't have to use the web site, you can
- * copy this file to "wp-config.php" and fill in the values.
+ * Acest fișier este folosit la crearea wp-config.php în timpul procesului de instalare.
+ * Folosirea interfeței web nu este obligatorie, acest fișier poate fi copiat
+ * sub numele de "wp-config.php", iar apoi populate toate detaliile.
+ * 
+ * Acest fișier conține următoarele configurări:
  *
- * This file contains the following configurations:
- *
- * * MySQL settings
- * * Secret keys
- * * Database table prefix
+ * * setările MySQL
+ * * cheile secrete
+ * * prefixul pentru tabele
  * * ABSPATH
  *
- * @link https://codex.wordpress.org/Editing_wp-config.php
+ * @link https://codex.wordpress.org/Editing_wp-config.php 
  *
  * @package WordPress
  */
 
-// ** MySQL settings - You can get this info from your web host ** //
-/** The name of the database for WordPress */
-define('DB_NAME', 'database_name_here');
+// ** Setările MySQL: aceste informații pot fi obținute de la serviciile de găzduire ** //
+/** Numele bazei de date pentru WordPress */
+define('DB_NAME', 'numele_bazei_de_date_aici');
 
-/** MySQL database username */
-define('DB_USER', 'username_here');
+/** Numele de utilizator MySQL */
+define('DB_USER', 'nume_de_utilizator_aici');
 
-/** MySQL database password */
-define('DB_PASSWORD', 'password_here');
+/** Parola utilizatorului MySQL */
+define('DB_PASSWORD', 'parola_aici');
 
-/** MySQL hostname */
+/** Adresa serverului MySQL */
 define('DB_HOST', 'localhost');
 
-/** Database Charset to use in creating database tables. */
+/** Setul de caractere pentru tabelele din baza de date. */
 define('DB_CHARSET', 'utf8');
 
-/** The Database Collate type. Don't change this if in doubt. */
+/** Schema pentru unificare. Nu faceți modificări dacă nu sunteți siguri. */
 define('DB_COLLATE', '');
 
 /**#@+
- * Authentication Unique Keys and Salts.
+ * Cheile unice pentru autentificare
  *
- * Change these to different unique phrases!
- * You can generate these using the {@link https://api.wordpress.org/secret-key/1.1/salt/ WordPress.org secret-key service}
- * You can change these at any point in time to invalidate all existing cookies. This will force all users to have to log in again.
+ * Modificați conținutul fiecărei chei pentru o frază unică.
+ * Acestea pot fi generate folosind {@link https://api.wordpress.org/secret-key/1.1/salt/ serviciul pentru chei de pe WordPress.org}
+ * Pentru a invalida toate cookie-urile poți schimba aceste valori în orice moment. Aceasta va forța toți utilizatorii să se autentifice din nou. 
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'put your unique phrase here');
-define('SECURE_AUTH_KEY',  'put your unique phrase here');
-define('LOGGED_IN_KEY',    'put your unique phrase here');
-define('NONCE_KEY',        'put your unique phrase here');
-define('AUTH_SALT',        'put your unique phrase here');
-define('SECURE_AUTH_SALT', 'put your unique phrase here');
-define('LOGGED_IN_SALT',   'put your unique phrase here');
-define('NONCE_SALT',       'put your unique phrase here');
+define('AUTH_KEY',         'pune fraza unică aici');
+define('SECURE_AUTH_KEY',  'pune fraza unică aici');
+define('LOGGED_IN_KEY',    'pune fraza unică aici');
+define('NONCE_KEY',        'pune fraza unică aici');
+define('AUTH_SALT',        'pune fraza unică aici');
+define('SECURE_AUTH_SALT', 'pune fraza unică aici');
+define('LOGGED_IN_SALT',   'pune fraza unică aici');
+define('NONCE_SALT',       'pune fraza unică aici');
 
 /**#@-*/
 
 /**
- * WordPress Database Table prefix.
+ * Prefixul tabelelor din MySQL
  *
- * You can have multiple installations in one database if you give each
- * a unique prefix. Only numbers, letters, and underscores please!
+ * Acest lucru permite instalarea mai multor instanțe WordPress folosind aceeași bază de date
+ * dacă prefixul este diferit pentru fiecare instanță. Sunt permise doar cifre, litere și caracterul liniuță de subliniere.
  */
 $table_prefix  = 'wp_';
 
 /**
- * For developers: WordPress debugging mode.
+ * Pentru dezvoltatori: WordPress în mod de depanare.
  *
- * Change this to true to enable the display of notices during development.
- * It is strongly recommended that plugin and theme developers use WP_DEBUG
- * in their development environments.
+ * Setează cu true pentru a permite afișarea notificărilor în timpul dezvoltării.
+ * Este recomadată folosirea modului WP_DEBUG în timpul dezvoltării modulelor și
+ * a șabloanelor/temelor în mediile personale de dezvoltare.
  *
- * For information on other constants that can be used for debugging,
- * visit the Codex.
+ * Pentru detalii despre alte constante ce pot fi utilizate în timpul depanării,
+ * vizitează Codex-ul.
  *
- * @link https://codex.wordpress.org/Debugging_in_WordPress
+ * @link https://codex.wordpress.org/Debugging_in_WordPress 
  */
 define('WP_DEBUG', false);
 
-/* That's all, stop editing! Happy blogging. */
+/* Asta e tot, am terminat cu editarea. Spor! */
 
-/** Absolute path to the WordPress directory. */
+/** Calea absolută spre directorul WordPress. */
 if ( !defined('ABSPATH') )
 	define('ABSPATH', dirname(__FILE__) . '/');
 
-/** Sets up WordPress vars and included files. */
+/** Setează variabilele WordPress și fișierele incluse. */
 require_once(ABSPATH . 'wp-settings.php');

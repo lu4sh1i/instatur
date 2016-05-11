@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b0b56c5-cd79-403f-8004-39d9ba64faaa" name="Default" comment="" />
+    <list default="true" id="3b0b56c5-cd79-403f-8004-39d9ba64faaa" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/altair-child/fields/post.fields.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/languages/admin-network-ro_RO.mo" afterPath="$PROJECT_DIR$/wp-content/languages/admin-network-ro_RO.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/languages/admin-ro_RO.mo" afterPath="$PROJECT_DIR$/wp-content/languages/admin-ro_RO.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/languages/continents-cities-ro_RO.mo" afterPath="$PROJECT_DIR$/wp-content/languages/continents-cities-ro_RO.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/languages/plugins/akismet-ro_RO.mo" afterPath="$PROJECT_DIR$/wp-content/languages/plugins/akismet-ro_RO.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/languages/ro_RO.mo" afterPath="$PROJECT_DIR$/wp-content/languages/ro_RO.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/languages/themes/twentyfifteen-ro_RO.mo" afterPath="$PROJECT_DIR$/wp-content/languages/themes/twentyfifteen-ro_RO.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/languages/themes/twentyfourteen-ro_RO.mo" afterPath="$PROJECT_DIR$/wp-content/languages/themes/twentyfourteen-ro_RO.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/languages/themes/twentysixteen-ro_RO.mo" afterPath="$PROJECT_DIR$/wp-content/languages/themes/twentysixteen-ro_RO.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/flashmediaelement.swf" afterPath="$PROJECT_DIR$/wp-includes/js/mediaelement/flashmediaelement.swf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/plupload/plupload.flash.swf" afterPath="$PROJECT_DIR$/wp-includes/js/plupload/plupload.flash.swf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.html" afterPath="$PROJECT_DIR$/readme.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-admin/about.php" afterPath="$PROJECT_DIR$/wp-admin/about.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-config-sample.php" afterPath="$PROJECT_DIR$/wp-config-sample.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/languages/admin-network-ro_RO.po" afterPath="$PROJECT_DIR$/wp-content/languages/admin-network-ro_RO.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/languages/admin-ro_RO.po" afterPath="$PROJECT_DIR$/wp-content/languages/admin-ro_RO.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/languages/continents-cities-ro_RO.po" afterPath="$PROJECT_DIR$/wp-content/languages/continents-cities-ro_RO.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/languages/plugins/akismet-ro_RO.po" afterPath="$PROJECT_DIR$/wp-content/languages/plugins/akismet-ro_RO.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/languages/ro_RO.po" afterPath="$PROJECT_DIR$/wp-content/languages/ro_RO.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/languages/themes/twentyfifteen-ro_RO.po" afterPath="$PROJECT_DIR$/wp-content/languages/themes/twentyfifteen-ro_RO.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/languages/themes/twentyfourteen-ro_RO.po" afterPath="$PROJECT_DIR$/wp-content/languages/themes/twentyfourteen-ro_RO.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/languages/themes/twentysixteen-ro_RO.po" afterPath="$PROJECT_DIR$/wp-content/languages/themes/twentysixteen-ro_RO.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/altair-child/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/altair-child/functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/altair/fields/page.fields.php" afterPath="$PROJECT_DIR$/wp-content/themes/altair/fields/page.fields.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/altair/fields/post.fields.php" afterPath="$PROJECT_DIR$/wp-content/themes/altair/fields/post.fields.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/js/mediaelement/mediaelement-and-player.min.js" afterPath="$PROJECT_DIR$/wp-includes/js/mediaelement/mediaelement-and-player.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/script-loader.php" afterPath="$PROJECT_DIR$/wp-includes/script-loader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-includes/version.php" afterPath="$PROJECT_DIR$/wp-includes/version.php" />
+    </list>
     <ignored path="instatur.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -35,11 +65,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/altair/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.016163792">
-              <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+            <state vertical-scroll-proportion="-12.666667">
+              <caret line="212" column="36" selection-start-line="212" selection-start-column="36" selection-end-line="212" selection-end-column="36" />
               <folding>
                 <marker date="1461067584000" expanded="true" signature="3611:3672" placeholder="DELETE FROM " />
                 <marker date="1461067584000" expanded="true" signature="4565:4626" placeholder="DELETE FROM " />
@@ -51,7 +81,129 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="single-tour-f.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/altair-child/single-tour-f.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="71.75">
+              <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post.fields.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/altair/fields/post.fields.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.5">
+              <caret line="522" column="28" selection-start-line="522" selection-start-column="28" selection-end-line="522" selection-end-column="28" />
+              <folding>
+                <marker date="1462969047000" expanded="true" signature="28126:28136" placeholder="..." />
+                <marker date="1462969047000" expanded="true" signature="28249:28259" placeholder="..." />
+                <marker date="1462969047000" expanded="true" signature="28909:28918" placeholder="..." />
+                <marker date="1462969047000" expanded="true" signature="29090:29108" placeholder="..." />
+                <marker date="1462969047000" expanded="true" signature="29302:29311" placeholder="..." />
+                <marker date="1462969047000" expanded="true" signature="29683:29692" placeholder="..." />
+                <marker date="1462969047000" expanded="true" signature="29875:29893" placeholder="..." />
+                <marker date="1462969047000" expanded="true" signature="30786:30796" placeholder="..." />
+                <marker date="1462969047000" expanded="true" signature="31011:31021" placeholder="..." />
+                <marker date="1462969047000" expanded="true" signature="31359:31368" placeholder="..." />
+                <marker date="1462969047000" expanded="true" signature="31536:31545" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/altair-child/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2736602">
+              <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post.fields.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/altair-child/fields/post.fields.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-23.125">
+              <caret line="180" column="0" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+              <folding>
+                <marker date="1462968643000" expanded="true" signature="30341:30351" placeholder="..." />
+                <marker date="1462968643000" expanded="true" signature="30464:30474" placeholder="..." />
+                <marker date="1462968643000" expanded="true" signature="31417:31426" placeholder="..." />
+                <marker date="1462968643000" expanded="true" signature="31598:31616" placeholder="..." />
+                <marker date="1462968643000" expanded="true" signature="31848:31857" placeholder="..." />
+                <marker date="1462968643000" expanded="true" signature="32302:32311" placeholder="..." />
+                <marker date="1462968643000" expanded="true" signature="32494:32512" placeholder="..." />
+                <marker date="1462968643000" expanded="true" signature="33605:33615" placeholder="..." />
+                <marker date="1462968643000" expanded="true" signature="33893:33903" placeholder="..." />
+                <marker date="1462968643000" expanded="true" signature="34325:34334" placeholder="..." />
+                <marker date="1462968643000" expanded="true" signature="34565:34574" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wp-config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-config.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-28.75">
+              <caret line="79" column="24" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.fields.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/altair/fields/page.fields.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.5">
+              <caret line="124" column="88" selection-start-line="124" selection-start-column="88" selection-end-line="124" selection-end-column="88" />
+              <folding>
+                <marker date="1462965219000" expanded="true" signature="4513:4523" placeholder="..." />
+                <marker date="1462965219000" expanded="true" signature="4636:4646" placeholder="..." />
+                <marker date="1462965219000" expanded="true" signature="5347:5356" placeholder="..." />
+                <marker date="1462965219000" expanded="true" signature="5528:5546" placeholder="..." />
+                <marker date="1462965219000" expanded="true" signature="5669:5678" placeholder="..." />
+                <marker date="1462965219000" expanded="true" signature="5894:5903" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-admin/includes/template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.5">
+              <caret line="902" column="9" selection-start-line="902" selection-start-column="9" selection-end-line="902" selection-end-column="9" />
+              <folding>
+                <marker date="1460542423000" expanded="false" signature="17412:17426" placeholder="..." />
+                <marker date="1460542423000" expanded="true" signature="17427:17638" placeholder="..." />
+                <marker date="1460542423000" expanded="true" signature="17436:17550" placeholder="..." />
+                <marker date="1460542423000" expanded="true" signature="17442:17540" placeholder="..." />
+                <marker date="1460542423000" expanded="true" signature="17599:17629" placeholder="..." />
+                <marker date="1460542423000" expanded="true" signature="21292:21447" placeholder="SELECT DISTI... ${$wpdb-&gt;postmeta}" />
+                <marker date="1460542423000" expanded="true" signature="29319:29437" placeholder="SELECT ID, p... ${$wpdb-&gt;posts}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/altair/search.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -66,6 +218,11 @@
         <option value="$PROJECT_DIR$/wp-content/themes/altair/js/supersized.3.1.3.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/altair/lib/contentbuilder.lib.php" />
         <option value="&lt;b6127e91-2c25-450e-a25e-def3e11f0bdc&gt;/public_html/deploy/wp-config.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/altair/fields/page.fields.php" />
+        <option value="$PROJECT_DIR$/wp-config.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/altair-child/fields/post.fields.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/altair-child/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/altair/fields/post.fields.php" />
       </list>
     </option>
   </component>
@@ -107,8 +264,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -177,7 +334,99 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="altair-child" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="instatur" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="instatur" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="altair-child" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fields" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="instatur" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="instatur" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="altair" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="instatur" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="instatur" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="altair" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fields" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="instatur" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="instatur" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -242,11 +491,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26800978" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27106228" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -281,6 +531,20 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/altair/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1461067584000" expanded="true" signature="3611:3672" placeholder="DELETE FROM " />
+            <marker date="1461067584000" expanded="true" signature="4565:4626" placeholder="DELETE FROM " />
+            <marker date="1461067584000" expanded="true" signature="11000:11275" placeholder="SELECT ${$wp... ${$wpdb-&gt;posts}" />
+            <marker date="1461067584000" expanded="true" signature="20506:20579" placeholder="SELECT * FRO... ${$wpdb-&gt;prefix}options" />
+            <marker date="1461067584000" expanded="true" signature="46056:46144" placeholder="SELECT * FRO... ${$wpdb-&gt;prefix}options" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/altair/lib/contentbuilder.lib.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -505,13 +769,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/altair-child/single-tour-f.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.017878426">
-          <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/altair/templates/template-share.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5363528">
@@ -561,13 +818,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/altair/lib/contentbuilder.lib.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.017204301">
@@ -575,10 +825,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/altair/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/altair/page-destination.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24193548">
+          <caret line="56" column="52" selection-start-line="56" selection-start-column="52" selection-end-line="56" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/includes/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.5">
+          <caret line="902" column="9" selection-start-line="902" selection-start-column="9" selection-end-line="902" selection-end-column="9" />
+          <folding>
+            <marker date="1460542423000" expanded="false" signature="17412:17426" placeholder="..." />
+            <marker date="1460542423000" expanded="true" signature="17427:17638" placeholder="..." />
+            <marker date="1460542423000" expanded="true" signature="17436:17550" placeholder="..." />
+            <marker date="1460542423000" expanded="true" signature="17442:17540" placeholder="..." />
+            <marker date="1460542423000" expanded="true" signature="17599:17629" placeholder="..." />
+            <marker date="1460542423000" expanded="true" signature="21292:21447" placeholder="SELECT DISTI... ${$wpdb-&gt;postmeta}" />
+            <marker date="1460542423000" expanded="true" signature="29319:29437" placeholder="SELECT ID, p... ${$wpdb-&gt;posts}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/altair/fields/page.fields.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.5">
+          <caret line="124" column="88" selection-start-line="124" selection-start-column="88" selection-end-line="124" selection-end-column="88" />
+          <folding>
+            <marker date="1462965219000" expanded="true" signature="4513:4523" placeholder="..." />
+            <marker date="1462965219000" expanded="true" signature="4636:4646" placeholder="..." />
+            <marker date="1462965219000" expanded="true" signature="5347:5356" placeholder="..." />
+            <marker date="1462965219000" expanded="true" signature="5528:5546" placeholder="..." />
+            <marker date="1462965219000" expanded="true" signature="5669:5678" placeholder="..." />
+            <marker date="1462965219000" expanded="true" signature="5894:5903" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-28.75">
+          <caret line="79" column="24" selection-start-line="79" selection-start-column="24" selection-end-line="79" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/altair/page_blank.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/altair/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.016163792">
-          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        <state vertical-scroll-proportion="-12.666667">
+          <caret line="212" column="36" selection-start-line="212" selection-start-column="36" selection-end-line="212" selection-end-column="36" />
           <folding>
             <marker date="1461067584000" expanded="true" signature="3611:3672" placeholder="DELETE FROM " />
             <marker date="1461067584000" expanded="true" signature="4565:4626" placeholder="DELETE FROM " />
@@ -586,6 +899,78 @@
             <marker date="1461067584000" expanded="true" signature="20506:20579" placeholder="SELECT * FRO... ${$wpdb-&gt;prefix}options" />
             <marker date="1461067584000" expanded="true" signature="46056:46144" placeholder="SELECT * FRO... ${$wpdb-&gt;prefix}options" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/altair-child/single-tour-f.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="71.75">
+          <caret line="154" column="0" selection-start-line="154" selection-start-column="0" selection-end-line="154" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-admin/includes/noop.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16129032">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/l10n.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3419355">
+          <caret line="263" column="9" selection-start-line="263" selection-start-column="9" selection-end-line="263" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/altair-child/fields/post.fields.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-23.125">
+          <caret line="180" column="0" selection-start-line="180" selection-start-column="0" selection-end-line="180" selection-end-column="0" />
+          <folding>
+            <marker date="1462968643000" expanded="true" signature="30341:30351" placeholder="..." />
+            <marker date="1462968643000" expanded="true" signature="30464:30474" placeholder="..." />
+            <marker date="1462968643000" expanded="true" signature="31417:31426" placeholder="..." />
+            <marker date="1462968643000" expanded="true" signature="31598:31616" placeholder="..." />
+            <marker date="1462968643000" expanded="true" signature="31848:31857" placeholder="..." />
+            <marker date="1462968643000" expanded="true" signature="32302:32311" placeholder="..." />
+            <marker date="1462968643000" expanded="true" signature="32494:32512" placeholder="..." />
+            <marker date="1462968643000" expanded="true" signature="33605:33615" placeholder="..." />
+            <marker date="1462968643000" expanded="true" signature="33893:33903" placeholder="..." />
+            <marker date="1462968643000" expanded="true" signature="34325:34334" placeholder="..." />
+            <marker date="1462968643000" expanded="true" signature="34565:34574" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/altair/fields/post.fields.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.5">
+          <caret line="522" column="28" selection-start-line="522" selection-start-column="28" selection-end-line="522" selection-end-column="28" />
+          <folding>
+            <marker date="1462969047000" expanded="true" signature="28126:28136" placeholder="..." />
+            <marker date="1462969047000" expanded="true" signature="28249:28259" placeholder="..." />
+            <marker date="1462969047000" expanded="true" signature="28909:28918" placeholder="..." />
+            <marker date="1462969047000" expanded="true" signature="29090:29108" placeholder="..." />
+            <marker date="1462969047000" expanded="true" signature="29302:29311" placeholder="..." />
+            <marker date="1462969047000" expanded="true" signature="29683:29692" placeholder="..." />
+            <marker date="1462969047000" expanded="true" signature="29875:29893" placeholder="..." />
+            <marker date="1462969047000" expanded="true" signature="30786:30796" placeholder="..." />
+            <marker date="1462969047000" expanded="true" signature="31011:31021" placeholder="..." />
+            <marker date="1462969047000" expanded="true" signature="31359:31368" placeholder="..." />
+            <marker date="1462969047000" expanded="true" signature="31536:31545" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/altair-child/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2736602">
+          <caret line="16" column="49" selection-start-line="16" selection-start-column="49" selection-end-line="16" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>

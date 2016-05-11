@@ -526,7 +526,7 @@ $postmetas =
 		),
 		
 		'tours' => array(
-			array("section" => "Tour Option", "id" => "tour_price", "title" => "Price", "description" => "Enter tour price (in number)"),
+			array("section" => "Tour Option", "id" => "tour_price", "title" => "Pret", "description" => "Enter tour price (in number)"),
 			array("section" => "Tour Option", "id" => "tour_price_discount", "title" => "Discount Price", "description" => "Enter tour discount price (in number)"),
 			array("section" => "Tour Option", "id" => "tour_price_currency", "type" => "text", "title" => "Price Currency", "description" => "Enter tour price currency ex. $"),
 			
