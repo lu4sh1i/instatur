@@ -1,0 +1,15 @@
+.my-post-title h4 {
+    font-size:16px;
+    margin:0;
+}
+
+.my-tour-price {
+    color: #9F0215;
+    font-size: 1.2em;
+}
+.my-tour-country {
+    color: #D0021B;
+    font-size: 1.2em;
+    text-transform:uppercase;
+    font-style:italic;
+}

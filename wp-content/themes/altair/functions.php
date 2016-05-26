@@ -266,7 +266,7 @@ include (get_template_directory() . "/fields/gallery/tg-gallery.php");
 
 
 //Check if has new update
-/*include_once(get_template_directory() . '/modules/envato-wordpress-toolkit-library/class-envato-wordpress-theme-upgrader.php');
+include_once(get_template_directory() . '/modules/envato-wordpress-toolkit-library/class-envato-wordpress-theme-upgrader.php');
 
 $pp_envato_username = get_option('pp_envato_username');
 $pp_envato_api_key = get_option('pp_envato_api_key');
@@ -303,12 +303,12 @@ if(!empty($pp_envato_username) && !empty($pp_envato_api_key))
 				}
 		}
 	}
-}*/
+}
 
 /**
 *	Setup one click update theme function
 **/
-/*add_action('wp_ajax_pp_update_theme', 'pp_update_theme');
+add_action('wp_ajax_pp_update_theme', 'pp_update_theme');
 add_action('wp_ajax_nopriv_pp_update_theme', 'pp_update_theme');
 
 function pp_update_theme() {
@@ -339,7 +339,7 @@ function pp_update_theme() {
 			echo 'Please enter Envato username and API Key';
 		}
 	}
-}*/
+}
 
 
 /**
@@ -813,7 +813,9 @@ function pp_enqueue_front_page_scripts() {
 	    	    get_template_directory().'/js/flexslider/flexslider.css',
 	    	    get_template_directory().'/css/supersized.css',
 	    	    get_template_directory().'/css/odometer-theme-minimal.css',
-	    	    get_template_directory().'/css/screen.css',
+	    	    get_template_directory().'/css/screen.css'
+//	    	    get_template_directory().'/css/bootstrap.css'
+
 	    	);
 	    	
 	    	if($pp_animation)
@@ -855,9 +857,9 @@ function pp_enqueue_front_page_scripts() {
 	    wp_enqueue_style("parallax", get_template_directory_uri()."/css/parallax.min.css", false, THEMEVERSION, "all");
 		wp_enqueue_style("flexslider-css", get_template_directory_uri()."/js/flexslider/flexslider.css", false, THEMEVERSION, "all");
 		wp_enqueue_style("supersized", get_template_directory_uri()."/css/supersized.css", false, THEMEVERSION, "all");
-		wp_enqueue_style("bootstrap", get_template_directory_uri()."/css/bootstrap.css", false, THEMEVERSION, "all");
 		wp_enqueue_style("odometer-theme", get_template_directory_uri()."/css/odometer-theme-minimal.css", false, THEMEVERSION, "all");
 	    wp_enqueue_style("screen-css", get_template_directory_uri()."/css/screen.css", false, THEMEVERSION);
+//	    wp_enqueue_style("bootstrap-css", get_template_directory_uri()."/css/bootstrap.css", false, THEMEVERSION);
 	    
 	    $pp_child_theme = get_option('pp_child_theme');
 

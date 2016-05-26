@@ -26,7 +26,7 @@ get_template_part("/templates/template-header-tour");
 ?>  
     <div class="inner">
 
-    	<!-- Begid Main content -->
+    	<!-- Begin Main content -->
     	<div class="inner_wrapper">
     	
     		<?php
@@ -37,6 +37,7 @@ get_template_part("/templates/template-header-tour");
 				$tour_price_currency= get_post_meta($current_page_id, 'tour_price_currency', true);
 				$tour_availability= get_post_meta($current_page_id, 'tour_availability', true);
 				$tour_booking_url= get_post_meta($current_page_id, 'tour_booking_url', true);
+				$tour_offer= get_post_meta($current_page_id, 'tour_offer', true);
 				
 				//Get number of your days
 				$tour_start_date= get_post_meta($current_page_id, 'tour_start_date', true);
@@ -46,11 +47,11 @@ get_template_part("/templates/template-header-tour");
 				$tour_days = pp_date_diff($tour_start_date_raw, $tour_end_date_raw);
 				if($tour_days > 0)
 				{
-				    $tour_days = intval($tour_days+1).' '.__( 'Days', THEMEDOMAIN );
+				    $tour_days = intval($tour_days+1).' '.__( 'Zile', THEMEDOMAIN );
 				}
 				else
 				{
-				    $tour_days = intval($tour_days+1).' '.__( 'Day', THEMEDOMAIN );
+				    $tour_days = intval($tour_days+1).' '.__( 'Zi', THEMEDOMAIN );
 				}
 				
 				$tour_price_display = 0;
@@ -90,19 +91,19 @@ get_template_part("/templates/template-header-tour");
 					{
 						case 5:
 						default:
-							$tour_block_class = 'one_fifth';
-						break;
-						
-						case 4:
 							$tour_block_class = 'one_fourth';
 						break;
 						
-						case 3:
+						case 4:
 							$tour_block_class = 'one_third';
 						break;
 						
-						case 2:
+						case 3:
 							$tour_block_class = 'one_half';
+						break;
+						
+						case 2:
+							$tour_block_class = 'one';
 						break;
 						
 						case 1:
@@ -139,10 +140,10 @@ get_template_part("/templates/template-header-tour");
 					    <?php
 					    	}
 					    ?>
-					    <div class="<?php echo esc_attr($tour_block_class); ?>">
-					    	<div class="tour_meta_title"><?php echo _e( 'Valabilitate', THEMEDOMAIN ); ?></div>
-					    	<div class="tour_meta_value"><?php echo $tour_availability; ?></div>
-					    </div>
+<!--					    <div class="--><?php //echo esc_attr($tour_block_class); ?><!--">-->
+<!--					    	<div class="tour_meta_title">--><?php //echo _e( 'Valabilitate', THEMEDOMAIN ); ?><!--</div>-->
+<!--					    	<div class="tour_meta_value">--><?php //echo $tour_availability; ?><!--</div>-->
+<!--					    </div>-->
 					    <div class="<?php echo esc_attr($tour_block_class); ?> last">
 					    	<a id="tour_book_btn" <?php if(!empty($tour_booking_url)) { ?>href="<?php echo $tour_booking_url; ?>"<?php }?> class="button center"><?php echo _e( 'Cere Ofertă', THEMEDOMAIN ); ?></a>
 					    </div>
@@ -245,9 +246,9 @@ get_template_part("/templates/template-header-tour");
 						<div class="parallax_overlay_header tour"></div>
 						
 						<div class="tour_call_to_action_box">
-							<div class="tour_call_to_action_price"><?php _e( "Starting Price", THEMEDOMAIN ); ?> <?php echo $tour_price_display; ?></div>
-							<div class="tour_call_to_action_book"><?php _e( "Book This Tour", THEMEDOMAIN ); ?></div>
-							<a id="call_to_action_tour_book_btn" <?php if(!empty($tour_booking_url)) { ?>href="<?php echo $tour_booking_url; ?>"<?php }?> class="button"><?php echo _e( 'Book Now', THEMEDOMAIN ); ?></a>
+							<div class="tour_call_to_action_price"><?php _e( "Preț de la", THEMEDOMAIN ); ?> <?php echo $tour_price_display; ?></div>
+							<div class="tour_call_to_action_book"><?php _e( "Rezervă această ofertă", THEMEDOMAIN ); ?></div>
+							<a id="call_to_action_tour_book_btn" <?php if(!empty($tour_booking_url)) { ?>href="<?php echo $tour_booking_url; ?>"<?php }?> class="button one-half"><?php echo _e( 'Rezervă Acum', THEMEDOMAIN ); ?></a>
 						</div>
 			    	</div>
 		    	<?php
@@ -276,15 +277,15 @@ get_template_part("/templates/template-header-tour");
 						{
 							case 4:
 							default:
-								$tour_block_class = 'one_fourth';
-							break;
-							
-							case 3:
 								$tour_block_class = 'one_third';
 							break;
 							
-							case 2:
+							case 3:
 								$tour_block_class = 'one_half';
+							break;
+							
+							case 2:
+								$tour_block_class = 'one';
 							break;
 							
 							case 1:
@@ -299,11 +300,11 @@ get_template_part("/templates/template-header-tour");
 						    	{
 						    ?>
 						    <div class="<?php echo esc_attr($tour_block_class); ?>">
-						    	<div class="tour_meta_title"><?php echo _e( 'Date', THEMEDOMAIN ); ?></div>
+						    	<div class="tour_meta_title"><?php echo _e( 'Data', THEMEDOMAIN ); ?></div>
 						    	<div class="tour_meta_value"><?php echo date('d M', strtotime($tour_start_date)); ?> - <?php echo date('d M', strtotime($tour_end_date)); ?></div>
 						    </div>
 						    <div class="<?php echo esc_attr($tour_block_class); ?>">
-						    	<div class="tour_meta_title"><?php echo _e( 'Duration', THEMEDOMAIN ); ?></div>
+						    	<div class="tour_meta_title"><?php echo _e( 'Durata', THEMEDOMAIN ); ?></div>
 						    	<div class="tour_meta_value"><?php echo $tour_days; ?></div>
 						    </div>
 						    <?php
@@ -314,16 +315,16 @@ get_template_part("/templates/template-header-tour");
 						    	{
 						    ?>
 						    <div class="<?php echo esc_attr($tour_block_class); ?>">
-						    	<div class="tour_meta_title"><?php echo _e( 'Price', THEMEDOMAIN ); ?></div>
+						    	<div class="tour_meta_title"><?php echo _e( 'Pret', THEMEDOMAIN ); ?></div>
 						    	<div class="tour_meta_value"><?php echo $tour_price_display; ?></div>
 						    </div>
 						    <?php
 						    	}
 						    ?>
-						    <div class="<?php echo esc_attr($tour_block_class); ?> last">
-						    	<div class="tour_meta_title"><?php echo _e( 'Availability', THEMEDOMAIN ); ?></div>
-						    	<div class="tour_meta_value"><?php echo $tour_availability; ?></div>
-						    </div>
+<!--						    <div class="--><?php //echo esc_attr($tour_block_class); ?><!-- last">-->
+<!--						    	<div class="tour_meta_title">--><?php //echo _e( 'Availability', THEMEDOMAIN ); ?><!--</div>-->
+<!--						    	<div class="tour_meta_value">--><?php //echo $tour_availability; ?><!--</div>-->
+<!--						    </div>-->
 						</div>
 					</div>
 				<?php

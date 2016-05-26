@@ -494,6 +494,8 @@ if(!empty($dynamic_sidebar))
 
 /*
 	Begin creating custom fields
+	@@@@@
+	wdi comented out the availability
 */
 
 $postmetas = 
@@ -526,7 +528,7 @@ $postmetas =
 		),
 		
 		'tours' => array(
-			array("section" => "Tour Option", "id" => "tour_price", "title" => "Pret", "description" => "Enter tour price (in number)"),
+			array("section" => "Tour Option", "id" => "tour_price", "title" => "Price", "description" => "Enter tour price (in number)"),
 			array("section" => "Tour Option", "id" => "tour_price_discount", "title" => "Discount Price", "description" => "Enter tour discount price (in number)"),
 			array("section" => "Tour Option", "id" => "tour_price_currency", "type" => "text", "title" => "Price Currency", "description" => "Enter tour price currency ex. $"),
 			
@@ -535,12 +537,13 @@ $postmetas =
 		    array("section" => "Tour Option", "id" => "tour_end_date", "type" => "date", "title" => "Tour End Date", "description" => "Select end date for this tour"),
 		    array("section" => "Tour Option", "id" => "tour_end_date_raw", "type" => "date_raw", "title" => "Tour End Date Raw", "description" => "Select end date for this tour"),
 			
-			array("section" => "Tour Option", "id" => "tour_availability", "title" => "Availability Seats", "description" => "Enter availability seats in this tour (in number)"),
+//			array("section" => "Tour Option", "id" => "tour_availability", "title" => "Availability Seats", "description" => "Enter availability seats in this tour (in number)"),
 			array("section" => "Tour Option", "id" => "tour_country", "type" => "text", "title" => "Country", "description" => "Enter country to travel to (ex. Germany, France)"),
 			
 			array("section" => "Tour Option", "id" => "tour_booking_url", "type" => "text", "title" => "Custom Booking URL", "description" => "Enter custom URL for booking button. When users click on book button, they will be redirected to this URL"),
 			
 			array("section" => "Tour Gallery", "id" => "tour_gallery", "type" => "select", "title" => "Gallery", "description" => "Please select a gallery you want to display on single tour page", "items" => $galleries_tour_select),
+//			array("section" => "Oferta", "id" => "tour_offer", "type" => "textarea", "title" => "Oferta", "description" => "Aici scriem oferta"),
 		),
 		
 		'galleries' => array(

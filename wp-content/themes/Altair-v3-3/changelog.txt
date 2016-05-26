@@ -1,0 +1,176 @@
+----------------------------------------------------------------------------
+   Release notes for Theme
+----------------------------------------------------------------------------
+
+   Theme Name: Altair
+
+   Version: 3.3
+
+   by Peerapong
+   http://themeforest.net/user/peerapong
+
+
+----------------------------------------------------------------------------
+  Change log
+----------------------------------------------------------------------------
+
+= V1.0 - 30.10.2014 =
+* Initial Release
+
+= V1.1 - 17.11.2014 =
+* Add custom booking URL option to tour
+* Fix zero tour price display issue
+
+= V1.1.1 - 10.12.2014 =
+* Fix tour search results incorrectly include blog posts
+
+= V1.1.2 - 22.12.2014 =
+* Fix menu font color in hover and active state issue
+
+= V1.2 - 04.01.2015 =
+* Update possible security issue with theme contact and reservation form
+* Update Revolution Slider plugin v4.6.5
+
+= V1.2.1 - 06.01.2015 =
+* Fix fullwidth classic tour page layout when enable top bar option
+
+= V1.2.2 - 08.01.2015 =
+* Fix gallery image caption issue in single tour page
+
+= V1.2.3 - 22.01.2015 =
+* Fix blog grid layout issue when enable top bar option
+
+= V1.3 - 24.01.2015 =
+* Fix tour search form issue with Wordpress 4.1
+
+= V1.3.1 - 30.01.2015 =
+* Improve tour search function to search both tour title & country data
+
+= V1.3.2 - 23.02.2015 =
+* Fix WPML issue with all posts content builder modules
+
+= V1.3.3 - 02.03.2015 =
+* Fix tour discount calculation issue
+
+= V1.3.4 - 12.03.2015 =
+* Add auto update feature
+
+= V1.3.5 - 22.03.2015 =
+* Fix single tour page margin top issue for some users
+
+= V1.3.6 - 27.03.2015 =
+* Fix homepage content builder spacing issue when using with fullscreen revolution slider
+
+= V1.3.7 - 02.04.2015 =
+* Fix tour search by keyword include non tour post type issue
+
+= V1.3.8 - 03.04.2015 =
+* Fix tab shortcode display issue
+
+= V1.3.9 - 23.04.2015 =
+* Fix tour grid discount percentage calculation in content builder
+* Update Revolution slider plugin v4.6.9
+
+= V1.4 - 24.04.2015 =
+* Update Revolution slider plugin documentation
+* Fix sidebar notice message issue for Wordpress 4.2
+* Fix content builder content loss for some users and improve content builder modules visibilities
+
+= V1.5 - 07.05.2015 =
+* Fix custom CSS in child theme issue
+
+= V2.0 - 20.05.2015 =
+* Add Woocommerce plugin support for shopping cart
+* Add comment feature for tour
+* Add Yoast SEO plugin support
+* Add booking confirmation email option
+* Add option to hide tour attributes bar
+* Add mega menu support
+* Improve tour search feature
+* Update Revolution slider plugin to v4.6.93
+
+* Fix quick edit remove tour data issue
+* Fix tab & accordion issue on single tour page
+* Fix contact & booking email form issue on some server setting
+
+= V2.1 - 04.06.2015 =
+* Fix search by start/end date issue
+
+= V2.2 - 07.06.2015 =
+* Fix CSS compression issue from v2.1
+
+= V2.3 - 11.06.2015 =
+* Change theme title display for better SEO
+
+= V2.4 - 02.07.2015 =
+* Fix javascript conflict issue with WPML plugin
+
+= V2.5 - 03.07.2015 =
+* Fix content builder issue with page template option
+
+= V2.6 - 06.07.2015 =
+* Fix auto update issue, temporary disable auto update feature due to invite server downtime issue
+
+= V2.7 - 13.07.2015 =
+* Fix contact form issue when using child theme
+
+= V2.8 - 14.07.2015 =
+* Update fontAwesome v4.3.0
+
+= V2.9 - 15.07.2015 =
+* Fix tour, gallery fixed width responsive layout
+
+= V3.0 - 15.07.2015 =
+* Fix parallax scrolling effect issue with the latest version of Chrome/Window
+
+= V3.0.1 - 22.07.2015 =
+* Fix 404 not found pagežs recent post grid issue
+
+= V3.1 - 07.08.2015 =
+* Fix content spacing issue for some customers settings
+* Update revolution slider plugin v5.0.1
+* Update revolution slider plugin documentation
+
+= V3.1.1 - 13.08.2015 =
+* Fix content spacing issue on Woocommerce pages when enable top bar setting
+
+= V3.1.2 - 19.08.2015 =
+* Fix responsive content spacing issue on single tour and destination pages
+* Fix tab shortcode issue when using child theme
+* Fix widget notice messages in WordPress 4.3
+* Update Revolution Slider plugin v5.0.4.1
+
+= V3.1.3 - 20.08.2015 =
+* Update fontAwesome v4.4.0
+* Add TripAdvisor social profile option
+* Fix content spacing issue on destination page template
+
+= V3.2 - 29.08.2015 =
+* Add option to has tour price unentered
+* Add option to has tour date unentered
+
+= V3.2.1 - 10.09.2015 =
+* Fix contact form extra fields not sending issue
+
+= V3.2.2 - 13.11.2015 =
+* Update Revolution Slider plugin v5.1.1
+
+= V3.2.3 - 01.12.2015 =
+* Fix single tour page display issue when disable sticky menu option
+* Fix tour grid contained layout issue
+* Update Revolution Slider plugin v5.1.4
+
+= V3.2.4 - 04.12.2015 =
+* Fix tour grid contained layout issue when using screen resolution larger than 1600px
+
+= V3.2.5 - 14.12.2015 =
+* Add support for tour pricing in float number
+
+= V3.2.6 - 13.01.2016 =
+* Update Revolution Slider plugin v5.1.6
+* Fix contact form issue when using content builder
+* Fix pagination issue when set page as static homepage in WordPress 4.4.1
+
+= V3.3 - 11.05.2016 =
+* Update Revolution Slider plugin v5.2.5.1
+* Update theme header sizing calculation
